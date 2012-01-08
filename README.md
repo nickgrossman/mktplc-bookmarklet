@@ -1,7 +1,7 @@
 This is a simple bookmarklet that will help you push content
 into the [Civic Commons Marketplace](http://marketplace.civiccommons.org).
 
-It doesn't yet work.
+It doesn't yet work.  But you can see a running demo [here](http://sandbox.wrkng.net/mktplc/bookmarklet/).
 
 In the future, it should do the following:
 
