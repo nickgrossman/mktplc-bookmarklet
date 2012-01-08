@@ -10,20 +10,21 @@ $action = 'process.php';
   <meta charset="utf-8">  
   <title>Add to the Mktplc</title>  
   <link type="text/css" rel="stylesheet" media="all" href="civcoms.css" />
-  <!-- scripts --> 
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="civcoms-bookmarklet.js"></script>    
   <!--[if lt IE 9]>  
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
   <![endif]-->  
 </head>  
 <body>  
-  <form action="<?php echo $action; ?>" method="post">
+  <form action="<?php echo $action; ?>" id="form" method="post">
   <h1>Awesome! Add this to the Mktplc</h1>
     <label>What is it?:</label>
     <select name="node_type">
       <option value="">-- choose --</option>
       <option value="application">Application</option>
       <option value="organization">Organization</option>
-      <option value="interaction">Connection</option>
+      <!--<option value="interaction">Connection</option>-->
     </select>
     <label>Title:</label>
     <input type="text" name="title" id="title" value="<?php echo $title ?>" />
