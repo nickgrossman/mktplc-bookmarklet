@@ -1,0 +1,43 @@
+html {
+  font: 12px/1.5em Arial,Helvetica,Sans-serif;
+  color: #545C60;
+  background: #FBFBFB;
+  background: url('civcoms-logo.png') 50% 5px no-repeat;
+  padding-top: 80px;
+}
+h1, h2, h3, h4 {
+  font-family: 'PT Sans', arial, sans-serif !important;
+}
+h1 {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+}
+form h1 {
+  margin: 0 0 10px 108px;
+}
+label {
+  display: block;
+  width: 100px;
+  font-weight: bold;
+  float: left;
+  clear: both;
+  padding: 0 8px 0 0;
+  text-align: right;
+}
+input, textarea, select {
+  float: left;
+  width: 400px;
+  margin-bottom: 15px;
+}
+#description {
+  height: 85px;
+}
+input#submit {
+  clear: both;
+  width: auto;
+  font-size: 4em;
+  margin-left: 108px;
+  padding: 5px 12px;
+  font-weight: bold;
+}
