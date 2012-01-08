@@ -9,9 +9,7 @@ $action = 'process.php';
 <head>  
   <meta charset="utf-8">  
   <title>Add to the Mktplc</title>  
-  <link type="text/css" rel="stylesheet" media="all" href="civcoms.css" />
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="civcoms-bookmarklet.js"></script>    
+  <link type="text/css" rel="stylesheet" media="all" href="civcoms.css" />  
   <!--[if lt IE 9]>  
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
   <![endif]-->  
