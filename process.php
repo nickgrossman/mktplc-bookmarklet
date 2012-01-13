@@ -12,7 +12,7 @@
   <title>Title</title>  
   <meta name="description" content="">  
   <meta name="author" content="">  
-  <link rel="stylesheet" href="civcoms.css?v=1.0">  
+  <link rel="stylesheet" href="civcoms-bookmarklet.css?v=1.0">  
   <!--<script src="js/scripts.js"></script>  -->
   <!--[if lt IE 9]>  
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
