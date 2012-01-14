@@ -1,0 +1,1 @@
+var Debugger=function(a){var d="undefined"===typeof Crossrider?a.isDebugMode():Crossrider.debug;this.debug=function(b,a){if(d)if(a||!this.debug.settings.console)alert(b);else if(this.debug.settings.timestamp){var c=new Date;c.toLocaleTimeString();c.getMilliseconds();console.log(c,b)}else console.log(b)};this.debug.settings={console:!0,timestamp:!0};return this.debug};

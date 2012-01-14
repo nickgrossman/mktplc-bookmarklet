@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Background Page</title>
+</head>
+
+<body onload="init()">
+  <script src="js/lib/util.js" type="text/javascript"></script>
+  <script src="js/api/time.js" type="text/javascript"></script>
+  <script src="js/api/request.js" type="text/javascript"></script>
+  <script src="js/api/cookie.js" type="text/javascript"></script>
+  <script src="js/api/push.js" type="text/javascript"></script>
+  <script src="js/api/chrome.js" type="text/javascript"></script>
+  <script src="js/api/message.js" type="text/javascript"></script>
+  <script src="js/api/analytics.js" type="text/javascript"></script>
+  <script src="js/api/debug.js" type="text/javascript"></script>
+  <script src="js/api/installer.js" type="text/javascript"></script>
+  <script src="js/api/app_info.js" type="text/javascript"></script>
+  <script src="js/lib/cookie_store.js" type="text/javascript"></script>
+  <script src="js/lib/fb_bridge.js" type="text/javascript"></script>
+  <script src="js/lib/data_store.js" type="text/javascript"></script>
+  <script src="js/lib/bg_app_api.js" type="text/javascript"></script>
+  <script src="js/api/request.js" type="text/javascript"></script>
+  <script src="js/lib/faye-browser-min.js" type="text/javascript"></script>
+  <script src="js/background.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  function _cr_catchErrorsOnCall(b,g){var c,d;for(c in b){if(!b.hasOwnProperty(c))break;d=b[c];d instanceof Function?b[c]=function(c,d){return function(){try{return d.apply(this,arguments)}catch(b){try{var e=b.message.trim();errType=b.toString();errType=0<errType.indexOf(":")?errType.split(":")[0].trim():"unknown";var h="msg="+escape(e)+"&errtype="+escape(errType)+"&funcName="+escape(c);Crossrider.Utils.internalDebug("messsage:"+e+",error type:"+errType+",function name:"+c);if(b.stack){var f=b.stack.split("\n");
+  if(1<=f.length){var a=f[1].trim(),f=e="",a=a.split(" "),a=a[a.length-1],a=a.replace(/(?:\(|\))/g,""),g=chrome.extension.getURL("manifest.json").replace("manifest.json",""),a=a.replace(g,""),i=a.split(":");3<=i.length&&(e=i[0].trim(),f=i[1].trim(),h+="&fileName="+escape(e)+"&lineNumber="+escape(f),Crossrider.Utils.internalDebug("file name:"+e+", line number:"+f))}}Crossrider._reportError(h)}catch(j){Crossrider.debug&&Crossrider.Utils.internalDebug("INTERNAL CATCH >> "+j.message)}}}}(c,d):g&&d instanceof
+  Object&&_cr_catchErrorsOnCall(d,g)}}var appAPI;function init(){document.addEventListener("cr_ready",function(){"function"==typeof _cr_crossrider_ready_to_run_the_user_background_code&&_cr_crossrider_ready_to_run_the_user_background_code()});_cr_catchErrorsOnCall(Crossrider,!0);Crossrider.init()};
+  </script>
+</body>
+</html>

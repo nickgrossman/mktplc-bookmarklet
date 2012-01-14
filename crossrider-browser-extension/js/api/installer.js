@@ -1,0 +1,1 @@
+var Installer=function(b){this.getParams=function(){var a=b._cookies.InstallerParams;return"undefined"!==typeof a?a.value:{}};this.getUnixTime=function(){var a=b._cookies.InstallationTime;return"undefined"!==typeof a?parseInt(a.value):0};return this};
