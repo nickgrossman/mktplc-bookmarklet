@@ -4,7 +4,6 @@
 *************************************************************************************/
 
 $jquery(document).ready(function() {
-      appAPI.chrome.browserAction.setBadgeText('foo');
 });
 
 
